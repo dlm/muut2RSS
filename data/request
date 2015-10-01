@@ -1,0 +1,29 @@
+#!/bin/bash
+#
+# Author: Dave Millman <dave@production.pro>
+# Created: 07 Sep 2015
+# Purpose: scrape data from moot 
+#
+
+# TODO: How do I get a session ID?
+SESSION_ID="vkx7sqKjKuJaZ4fxk5BxWqWz.50ae54e856e5d118bb16b4b3fdaf0b28b7686000"
+curl \
+    -H "Accept: application/json" \
+    -X POST 'https://api.muut.com/' \
+    -d '{
+        "method":"init",
+        "params":[
+            {
+                "version":"1.14.0",
+                "path":"/comptop",
+                "currentForum":"comptop",
+                 "pageLocation":"https://muut.com/comptop",
+                 "expand_all":false,
+                 "reload":false
+             }
+        ],
+        "id":"#1",
+        "session":{"sessionId":"'${SESSION_ID}'"},
+        "jsonrpc":"2.1.0",
+        "transport":"upgrade"
+    }' | jq '.'

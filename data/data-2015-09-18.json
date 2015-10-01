@@ -1,0 +1,786 @@
+{
+  "result": {
+    "has_products": 1,
+    "analytics": {},
+    "user": {},
+    "categories": [
+      {
+        "title": "General",
+        "path": "/comptop/general",
+        "has_new": 0,
+        "category": true
+      },
+      {
+        "title": "Applications",
+        "path": "/comptop/applications",
+        "has_new": 0,
+        "category": true
+      },
+      {
+        "title": "R-TDA",
+        "path": "/comptop/r-tda",
+        "has_new": 0,
+        "category": true
+      },
+      {
+        "title": "Other Software",
+        "path": "/comptop/software",
+        "has_new": 0,
+        "category": true
+      },
+      {
+        "title": "Conferences and Deadlines",
+        "path": "/comptop/conferences",
+        "has_new": 0,
+        "category": true
+      },
+      {
+        "title": "Jobs",
+        "path": "/comptop/jobs",
+        "has_new": 0,
+        "category": true
+      },
+      {
+        "title": "Video Requests",
+        "path": "/comptop/video-requests",
+        "has_new": 0,
+        "category": true
+      }
+    ],
+    "users": {
+      "online": [],
+      "away": [],
+      "anon_count": 5
+    },
+    "language": "en",
+    "admins": [
+      {
+        "username": "bfasy",
+        "is_owner": true
+      },
+      {
+        "username": "michiexile"
+      }
+    ],
+    "moots": {
+      "entries": [
+        {
+          "replies": [],
+          "has_replied": 0,
+          "lastReply": 1442307220080,
+          "reply_count": 0,
+          "path": "/comptop/software#converting-a-digital-image",
+          "is_relevant": false,
+          "seed": {
+            "spam_level": 0,
+            "is_liked": 0,
+            "is_expanded": 0,
+            "body": [
+              "We would like to compute persistent diagrams of gray-scale digital images obtained from (micro) ct-scans.  How can we convert such a digital image to a input file (e.g boundary matrix, persistent pairs) format? \n\nHere is the specific format in 2D that we are interested in. \n\n2 : this is the dimension of the cubical grid \n3 : this is the number of cubes along the first dimension \n4 : this is the number of cubes along the second dimension \n1 : this is the birth time of the 2D cube anchored at (0,0) \n2 : this is the birth time of the 2D cube anchored at (1,0) t\n1 : this is the birth time of the 2D cube anchored at (2,0) \n2 : this is the birth time of the 2D cube anchored at (0,1) \n-1 : this indicates that there is no cube anchored at at (1,1) \n2 : this is the birth time of the 2D cube anchored at (2,1)   \n\nIt is taken from the Perseus project webpage of Vidit Nanda and similar to persistence_pairs-ascii format.  For more info one can check http://www.sas.upenn.edu/~v"
+            ],
+            "title": "Converting a digital image to an input file (e.g. boundary matrix)",
+            "key": "converting-a-digital-image",
+            "flag": "",
+            "meta": 0,
+            "is_new": 0,
+            "time": 1442307220080,
+            "like_count": 0,
+            "has_more": 1,
+            "user": {
+              "path": "@aliduman",
+              "displayname": "Ali Nabi Duman",
+              "img": "//cloudinary-a.akamaihd.net/moot/image/gplus/t_d2-avatar/108345745015004437555.jpg"
+            }
+          },
+          "page": {
+            "path": "/comptop/software",
+            "title": "Other Software"
+          },
+          "is_watched": 0,
+          "is_silenced": 0,
+          "retired": 0,
+          "is_expanded": 0
+        },
+        {
+          "replies": [],
+          "has_replied": 0,
+          "lastReply": 1441888041345,
+          "reply_count": 0,
+          "path": "/comptop/conferences#atmcs-7-turin-25-29-july-2",
+          "is_relevant": false,
+          "seed": {
+            "spam_level": 0,
+            "is_liked": 0,
+            "is_expanded": 0,
+            "body": [
+              "We are excited to announce the 7th edition of Algebraic Topology: Computation, Methods, and Science (ATMCS) scheduled from 25-29 July, 2016 in Turin, Italy!  This conference is a joint effort of the Polytechnic University of Turin (Politecnico di Torino) and the ISI Foundation, to be hosted at the Politecnico.\n\nATMCS is a biennial conference series on algebraic topology with an important focus on its role in computer science and applications.  The 1st edition was held in 2001 at Stanford University in California, USA with subsequent editions held at international, transatlantic institutions.\n\nApplied and computational topology refers to the adaptation of classical topological theory and techniques to other fields of science and engineering.  A key goal in the conference series is the further development of topological techniques for use in applications and the creation of new areas of applications in the subject.  This conference series maintains a strong tradition of bringing together leading established researchers and young scientists in this emerging discipline, prov"
+            ],
+            "title": "ATMCS 7, Turin 25-29 July 2016",
+            "key": "atmcs-7-turin-25-29-july-2",
+            "flag": "",
+            "meta": 0,
+            "is_new": 0,
+            "time": 1441888041345,
+            "like_count": 0,
+            "has_more": 1,
+            "user": {
+              "path": "@michiexile",
+              "displayname": "Mikael Vejdemo-Johansson",
+              "img": "//cloudinary-a.akamaihd.net/moot/image/facebook/t_d2-avatar/10153603653473083.jpg"
+            }
+          },
+          "page": {
+            "path": "/comptop/conferences",
+            "title": "Conferences and Deadlines"
+          },
+          "is_watched": 0,
+          "is_silenced": 0,
+          "retired": 0,
+          "is_expanded": 0
+        },
+        {
+          "replies": [],
+          "has_replied": 0,
+          "lastReply": 1441745921427,
+          "reply_count": 2,
+          "path": "/comptop/r-tda#how-to-have-the-values-of-a",
+          "is_relevant": false,
+          "seed": {
+            "spam_level": 0,
+            "is_liked": 0,
+            "is_expanded": 0,
+            "body": [
+              "Hi there, \nI am struggling with the following:\nLet's say I have a function f=x^2. \nI have x run from values 1:5\nHow can I get the values, 1, 4, 9, 16, and 25 appear in one row in a 1 by 5 matrix?\nThanks!!!!"
+            ],
+            "title": "How to have the values of a function appear in a matrix",
+            "key": "how-to-have-the-values-of-a",
+            "flag": "",
+            "meta": 0,
+            "is_new": 0,
+            "time": 1441724791553,
+            "like_count": 0,
+            "has_more": 0,
+            "user": {
+              "path": "@lstat",
+              "displayname": "lstat",
+              "img": "//secure.gravatar.com/avatar/2e903b97ef9133257a6ea61220890fc7?s=120&d=https%3A//cloudinary-a.akamaihd.net/moot/image/upload/t_d2-avatar/v1364433564/moot.jpg"
+            }
+          },
+          "page": {
+            "path": "/comptop/r-tda",
+            "title": "R-TDA"
+          },
+          "is_watched": 0,
+          "is_silenced": 0,
+          "retired": 0,
+          "is_expanded": 0
+        },
+        {
+          "replies": [],
+          "has_replied": 0,
+          "lastReply": 1441206938116,
+          "reply_count": 0,
+          "path": "/comptop/video-requests#new-to-making-videos",
+          "is_relevant": false,
+          "seed": {
+            "spam_level": 0,
+            "is_liked": 0,
+            "is_expanded": 0,
+            "body": [
+              "Hello all, \nFor those who don't have much experience making videos and are looking for some advise, please check out our Shawn's (Shawn helps us with technical stuff) recommendation on the videos tab if you haven't already does so.  \nhttps://www.ima.umn.edu/topology/videos/contribute\n\nAlso, Matthew Wright whose videos are available on the Youtube channel has provided us with insights into how creates his vidoes: \n\n\"\nI start making my videos by planning what I wanted to say and creating slides in PowerPoint. Of course, other presentation software could be used; I use PowerPoint for its drawing and animation tools.\n\nAfter preparing my slides, I use the free software ActivePresenter to record a video of my presentation. ActivePresenter is able to capture the slides on my computer screen and audio as I narrate the slides; other similar software is available. For high-quality audio, I use a desktop microphone (I have a Blu Snowball mic) rather than the built-in mic on my laptop. I then use ActivePresenter to for minor video editing, checking for mistakes and correcting any I "
+            ],
+            "title": "New to making videos?",
+            "key": "new-to-making-videos",
+            "flag": "",
+            "meta": 0,
+            "is_new": 0,
+            "time": 1441206938116,
+            "like_count": 1,
+            "has_more": 1,
+            "user": {
+              "path": "@harishkumarch",
+              "displayname": "harishkumarch",
+              "img": "//secure.gravatar.com/avatar/e0d6f52d2cef6bd25778a03f3609c45b?s=120&d=https%3A//cloudinary-a.akamaihd.net/moot/image/upload/t_d2-avatar/v1364433564/moot.jpg"
+            }
+          },
+          "page": {
+            "path": "/comptop/video-requests",
+            "title": "Video Requests"
+          },
+          "is_watched": 0,
+          "is_silenced": 0,
+          "retired": 0,
+          "is_expanded": 0
+        },
+        {
+          "replies": [],
+          "has_replied": 0,
+          "lastReply": 1441203438541,
+          "reply_count": 0,
+          "path": "/comptop/video-requests#vidoes",
+          "is_relevant": false,
+          "seed": {
+            "spam_level": 0,
+            "is_liked": 0,
+            "is_expanded": 0,
+            "body": [
+              "Hello everyone,\nAs many of you know, we have recently started a Youtube channel https://www.youtube.com/channel/UC-_buHgDs25DacoSEPrfNgQ ( Don't forget to subscribe) for this network. This channel will have two primary purposes:\n1. To supplement our seminar series in helping our community members keep up with research of other members.\n2. To help popularize TDA among people outside our community.\n3. To help everyone advertise their work via short videos.\n\nIf anyone has suggestions for specific topics you would like covered in a video, please suggest them right here in this Forum.  Feel free to also post links to videos that you have either made or found to be informative.\n\nIf you would like to contact us directly, please send email me (Harish, harishkumar.ch@gmail.com) or Don (don.r.sheehy@gmail.com).  We are happy to upload or link your existing videos to this new YouTube channel.\n\nOnce we have a critical mass of videos, we will be more aggressive in advertising the channel in many venues."
+            ],
+            "title": "Vidoes",
+            "key": "vidoes",
+            "flag": "",
+            "meta": 0,
+            "is_new": 0,
+            "time": 1441203438541,
+            "like_count": 1,
+            "has_more": 0,
+            "user": {
+              "path": "@harishkumarch",
+              "displayname": "harishkumarch",
+              "img": "//secure.gravatar.com/avatar/e0d6f52d2cef6bd25778a03f3609c45b?s=120&d=https%3A//cloudinary-a.akamaihd.net/moot/image/upload/t_d2-avatar/v1364433564/moot.jpg"
+            }
+          },
+          "page": {
+            "path": "/comptop/video-requests",
+            "title": "Video Requests"
+          },
+          "is_watched": 0,
+          "is_silenced": 0,
+          "retired": 0,
+          "is_expanded": 0
+        },
+        {
+          "replies": [],
+          "has_replied": 0,
+          "lastReply": 1441111333051,
+          "reply_count": 1,
+          "path": "/comptop/conferences#call-for-papers-the-25th-f",
+          "is_relevant": false,
+          "seed": {
+            "spam_level": 0,
+            "is_liked": 0,
+            "is_expanded": 0,
+            "body": [
+              "** Apologies for cross-postings. Please send to interested colleagues and students. **\n\n                  First Call for Papers and Participation FWCG 2015\n                 The 25th Fall Workshop on Computational Geometry\n                       State University of New York at Buffalo\n                                         Oct 23 - 24, 2015\n                                   info:  http://www.cse.buffalo.edu/fwcg2015                                       \n                                      Registration: FREE\n                     Deadline for submissions: September 25, 2015\n\nConference Scope:\n~~~~~~~~~~~~~~~~\nThe aim of this workshop is to bring together students and researchers\nfrom academia and industry, to stimulate collaboration on problems of\ncommon interest arising in geometric computations. Topics to be covered\ninclude computational geometry and related topics, e.g.,\n\n    * Algorithmic methods in geometry and topology\n    * Sensor networks and network technologies\n    * I/O-scalable geometric algorithms"
+            ],
+            "title": "Call for Papers: The 25th Fall Workshop on Computational Geometry",
+            "key": "call-for-papers-the-25th-f",
+            "flag": "",
+            "meta": 0,
+            "is_new": 0,
+            "time": 1439960689730,
+            "like_count": 0,
+            "has_more": 1,
+            "user": {
+              "path": "@bfasy",
+              "displayname": "Brittany",
+              "img": "//res.cloudinary.com/moot/image/upload/t_d2-avatar/v1437396260/bfasy.jpg",
+              "is_admin": 1
+            }
+          },
+          "page": {
+            "path": "/comptop/conferences",
+            "title": "Conferences and Deadlines"
+          },
+          "is_watched": 0,
+          "is_silenced": 0,
+          "retired": 0,
+          "is_expanded": 0
+        },
+        {
+          "replies": [],
+          "has_replied": 0,
+          "lastReply": 1440683810196,
+          "reply_count": 1,
+          "path": "/comptop/general#journals-for-computational",
+          "is_relevant": false,
+          "seed": {
+            "spam_level": 0,
+            "is_liked": 0,
+            "is_expanded": 0,
+            "body": [
+              "I have been asked this question recently, and I don't think I have a good answer: what are the journals to submit results in computational topology to?\n\nI am aware of \nHomology, Homotopy and Algebra\nFoundations of Computational Mathematics\nDiscrete and Computational Geometry\nComputational Geometry: Theory and Applications"
+            ],
+            "title": "Journals for Computational Topology",
+            "key": "journals-for-computational",
+            "flag": "",
+            "meta": 0,
+            "is_new": 0,
+            "time": 1440601873011,
+            "like_count": 0,
+            "has_more": 0,
+            "user": {
+              "path": "@michaelkerber",
+              "displayname": "michaelkerber",
+              "img": "//secure.gravatar.com/avatar/39cd95507b1d45bc3d81430e809a4510?s=120&d=https%3A//cloudinary-a.akamaihd.net/moot/image/upload/t_d2-avatar/v1364433564/moot.jpg"
+            }
+          },
+          "page": {
+            "path": "/comptop/general",
+            "title": "General"
+          },
+          "is_watched": 0,
+          "is_silenced": 0,
+          "retired": 0,
+          "is_expanded": 0
+        },
+        {
+          "replies": [],
+          "has_replied": 0,
+          "lastReply": 1439960206177,
+          "reply_count": 1,
+          "path": "/comptop/r-tda#area-under-persistence-land",
+          "is_relevant": false,
+          "seed": {
+            "spam_level": 0,
+            "is_liked": 0,
+            "is_expanded": 0,
+            "body": [
+              "Hi there, \nI was wondering if it is possible to find the area underneath the persistence landscape from 0 to some time t, where t will vary depending on the contour (and the length of the betti barcode) using R? Is there a function that can help me to perform this integral?\nThanks!"
+            ],
+            "title": "Area under Persistence Landscapes (integral)",
+            "key": "area-under-persistence-land",
+            "flag": "",
+            "meta": 0,
+            "is_new": 0,
+            "time": 1439503147237,
+            "like_count": 0,
+            "has_more": 0,
+            "user": {
+              "path": "@lstat",
+              "displayname": "lstat",
+              "img": "//secure.gravatar.com/avatar/2e903b97ef9133257a6ea61220890fc7?s=120&d=https%3A//cloudinary-a.akamaihd.net/moot/image/upload/t_d2-avatar/v1364433564/moot.jpg"
+            }
+          },
+          "page": {
+            "path": "/comptop/r-tda",
+            "title": "R-TDA"
+          },
+          "is_watched": 0,
+          "is_silenced": 0,
+          "retired": 0,
+          "is_expanded": 0
+        },
+        {
+          "replies": [],
+          "has_replied": 0,
+          "lastReply": 1439954757018,
+          "reply_count": 2,
+          "path": "/comptop/general#svm-on-concatenated-lambdas",
+          "is_relevant": false,
+          "seed": {
+            "spam_level": 0,
+            "is_liked": 0,
+            "is_expanded": 0,
+            "body": [
+              "Hi there, \nI was hoping someone could help explain to me what exactly this means:\nGiven persistence landscapes with functions lambda1(t), ....lambdak(t), where k =15, what does it mean to do SVM on concatenated lambdas? I don't really understand this concept, and would like to have some clarity. \nThanks!"
+            ],
+            "title": "SVM on Concatenated Lambdas",
+            "key": "svm-on-concatenated-lambdas",
+            "flag": "",
+            "meta": 0,
+            "is_new": 0,
+            "time": 1438751182105,
+            "like_count": 0,
+            "has_more": 0,
+            "user": {
+              "path": "@lstat",
+              "displayname": "lstat",
+              "img": "//secure.gravatar.com/avatar/2e903b97ef9133257a6ea61220890fc7?s=120&d=https%3A//cloudinary-a.akamaihd.net/moot/image/upload/t_d2-avatar/v1364433564/moot.jpg"
+            }
+          },
+          "page": {
+            "path": "/comptop/general",
+            "title": "General"
+          },
+          "is_watched": 0,
+          "is_silenced": 0,
+          "retired": 0,
+          "is_expanded": 0
+        },
+        {
+          "replies": [],
+          "has_replied": 0,
+          "lastReply": 1438336869755,
+          "reply_count": 2,
+          "path": "/comptop/software#persistence-in-big-data-h",
+          "is_relevant": false,
+          "seed": {
+            "spam_level": 0,
+            "is_liked": 0,
+            "is_expanded": 0,
+            "body": [
+              "Generally, I want to know what are the limits of using some of the software packages out there.  But, let's be specific:\n\nSuppose we have n points sampled in R^3, taken i.i.d. from the uniform distribution over a large compact domain.  Now, let's compute the persistence diagram for some standard filtered complex (Rips, cech, alpha, ... whichever you choose).\n\nThe question: how big can n be if you are using, say, a typical (new-ish) laptop?  (Does it depend on the package you are using?)"
+            ],
+            "title": "Persistence in Big Data?  How Big?",
+            "key": "persistence-in-big-data-h",
+            "flag": "",
+            "meta": 0,
+            "is_new": 0,
+            "time": 1437710448464,
+            "like_count": 1,
+            "has_more": 0,
+            "user": {
+              "path": "@bfasy",
+              "displayname": "Brittany",
+              "img": "//res.cloudinary.com/moot/image/upload/t_d2-avatar/v1437396260/bfasy.jpg",
+              "is_admin": 1
+            }
+          },
+          "page": {
+            "path": "/comptop/software",
+            "title": "Other Software"
+          },
+          "is_watched": 0,
+          "is_silenced": 0,
+          "retired": 0,
+          "is_expanded": 0
+        },
+        {
+          "replies": [],
+          "has_replied": 0,
+          "lastReply": 1438265306772,
+          "reply_count": 3,
+          "path": "/comptop/r-tda#svm-r",
+          "is_relevant": false,
+          "seed": {
+            "spam_level": 0,
+            "is_liked": 0,
+            "is_expanded": 0,
+            "body": [
+              "Hi there, I was wondering if it is possible to do SVM with linear kernel applied to persistence landscapes? I'm not sure how to go about doing this....and if R can do it.?\nThanks!"
+            ],
+            "title": "SVM & R",
+            "key": "svm-r",
+            "flag": "",
+            "meta": 0,
+            "is_new": 0,
+            "time": 1438049953203,
+            "like_count": 0,
+            "has_more": 0,
+            "user": {
+              "path": "@lstat",
+              "displayname": "lstat",
+              "img": "//secure.gravatar.com/avatar/2e903b97ef9133257a6ea61220890fc7?s=120&d=https%3A//cloudinary-a.akamaihd.net/moot/image/upload/t_d2-avatar/v1364433564/moot.jpg"
+            }
+          },
+          "page": {
+            "path": "/comptop/r-tda",
+            "title": "R-TDA"
+          },
+          "is_watched": 0,
+          "is_silenced": 0,
+          "retired": 0,
+          "is_expanded": 0
+        },
+        {
+          "replies": [],
+          "has_replied": 0,
+          "lastReply": 1438190553749,
+          "reply_count": 1,
+          "path": "/comptop/software#mapper-algorithm",
+          "is_relevant": false,
+          "seed": {
+            "spam_level": 0,
+            "is_liked": 0,
+            "is_expanded": 0,
+            "body": [
+              "The proposed method by Carlsson and his group which is called MAPPER can be used to reduce high dimensional datasets into simplicial complexes with far fewer points which can capture topological and geometric information at a specified resolution. \nI am wondering if the Mapper algorithm has been written in MATLAB or not, if so where I can find it. This was my question to Dr. Mikael Vejdemo-Johansson, he guid me to Gurjeet Singh work as JavaPlex code see \"  http://javaplex.googlecode.com/svn-history/r150/trunk/src/matlab/hom_messy/mapper.m \"."
+            ],
+            "title": "Mapper Algorithm",
+            "key": "mapper-algorithm",
+            "flag": "",
+            "meta": 0,
+            "is_new": 0,
+            "time": 1438128956684,
+            "like_count": 0,
+            "has_more": 0,
+            "user": {
+              "path": "@nisreen",
+              "displayname": "Nisreen AlOkbi",
+              "img": "//cloudinary-a.akamaihd.net/moot/image/gplus/t_d2-avatar/110868821256958429754.jpg"
+            }
+          },
+          "page": {
+            "path": "/comptop/software",
+            "title": "Other Software"
+          },
+          "is_watched": 0,
+          "is_silenced": 0,
+          "retired": 0,
+          "is_expanded": 0
+        },
+        {
+          "replies": [],
+          "has_replied": 0,
+          "lastReply": 1438012993418,
+          "reply_count": 4,
+          "path": "/comptop/general#what-are-some-good-tda-surv",
+          "is_relevant": false,
+          "seed": {
+            "spam_level": 0,
+            "is_liked": 0,
+            "is_expanded": 0,
+            "body": [
+              ""
+            ],
+            "title": "What are some good TDA survey articles?",
+            "key": "what-are-some-good-tda-surv",
+            "flag": "",
+            "meta": 0,
+            "is_new": 0,
+            "time": 1437632949723,
+            "like_count": 1,
+            "has_more": 0,
+            "user": {
+              "path": "@velnias",
+              "displayname": "Vidit",
+              "img": "//res.cloudinary.com/moot/image/upload/t_d2-avatar/v1437633317/velnias.jpg"
+            }
+          },
+          "page": {
+            "path": "/comptop/general",
+            "title": "General"
+          },
+          "is_watched": 0,
+          "is_silenced": 0,
+          "retired": 0,
+          "is_expanded": 0
+        },
+        {
+          "replies": [],
+          "has_replied": 0,
+          "lastReply": 1437795543973,
+          "reply_count": 4,
+          "path": "/comptop/r-tda#distance-between-persistenc",
+          "is_relevant": false,
+          "seed": {
+            "spam_level": 0,
+            "is_liked": 0,
+            "is_expanded": 0,
+            "body": [
+              "I am aware that R package TDA can compute Wasserstein distance between persistence diagrams, but I was wondering if there was a way for the program to calculate distances between persistence landscapes?"
+            ],
+            "title": "Distance between Persistence Landscapes",
+            "key": "distance-between-persistenc",
+            "flag": "",
+            "meta": 0,
+            "is_new": 0,
+            "time": 1437661963157,
+            "like_count": 1,
+            "has_more": 0,
+            "user": {
+              "path": "@lstat",
+              "displayname": "lstat",
+              "img": "//secure.gravatar.com/avatar/2e903b97ef9133257a6ea61220890fc7?s=120&d=https%3A//cloudinary-a.akamaihd.net/moot/image/upload/t_d2-avatar/v1364433564/moot.jpg"
+            }
+          },
+          "page": {
+            "path": "/comptop/r-tda",
+            "title": "R-TDA"
+          },
+          "is_watched": 0,
+          "is_silenced": 0,
+          "retired": 0,
+          "is_expanded": 0
+        },
+        {
+          "replies": [],
+          "has_replied": 0,
+          "lastReply": 1437754180755,
+          "reply_count": 0,
+          "path": "/comptop/general#women-in-computational-topo",
+          "is_relevant": false,
+          "seed": {
+            "spam_level": 0,
+            "is_liked": 0,
+            "is_expanded": 0,
+            "body": [
+              "The field of computational topology has grown rapidly over the past few years, so Brittany Fasy and I have set up a listserv that we would like to invite you to join (both men and women are encouraged to join).  We will use this listserv to share opportunities, to remind each other of approaching deadlines, as well as a means to reach out to a supporting community.  \n\nIf you are interested in joining, please send a blank email to: \nWinCompTop+subscribe@googlegroups.com\nAn automated response will prompt you to confirm your request.  After confirming, your request must be approved by a group admin (we will, of course, approve you).  If you have any trouble signing up, do not hesitate to reach out."
+            ],
+            "title": "Women in Computational Topology",
+            "key": "women-in-computational-topo",
+            "flag": "",
+            "meta": 0,
+            "is_new": 0,
+            "time": 1437754180755,
+            "like_count": 0,
+            "has_more": 0,
+            "user": {
+              "path": "@loriziegelmeier",
+              "displayname": "loriziegelmeier",
+              "img": "//secure.gravatar.com/avatar/586950841c7d4c8fad56e175f7e61f4a?s=120&d=https%3A//cloudinary-a.akamaihd.net/moot/image/upload/t_d2-avatar/v1364433564/moot.jpg"
+            }
+          },
+          "page": {
+            "path": "/comptop/general",
+            "title": "General"
+          },
+          "is_watched": 0,
+          "is_silenced": 0,
+          "retired": 0,
+          "is_expanded": 0
+        },
+        {
+          "replies": [],
+          "has_replied": 0,
+          "lastReply": 1437700976089,
+          "reply_count": 0,
+          "path": "/comptop/conferences#second-schoolconference-in",
+          "is_relevant": false,
+          "seed": {
+            "spam_level": 0,
+            "is_liked": 0,
+            "is_expanded": 0,
+            "body": [
+              "Second School/Conference in TDA, Stochastic Topology and related topics\n\n2015-12-7 to 2015-12-11\n\nQueretaro, Mexico\n\nhttp://atd.cimat.mx/segunda-escuela-2015  (in Spanish)\n\nSpeakers confirmed: \n• Ulrich Bauer \n• Peter Bubenik \n• Gunnar Carlsson \n• Armando Castañeda \n• Frederic Chazal \n• Herbert Edelsbrunner \n• Michael Farber\n• Patricio Frosini \n• Heather A. Harrington \n• Maurice Herlihy \n• Neza Mramor-Kosta "
+            ],
+            "title": "Second School/Conference in TDA, Stochastic Topology and related topics",
+            "key": "second-schoolconference-in",
+            "flag": "",
+            "meta": 0,
+            "is_new": 0,
+            "time": 1437700976089,
+            "like_count": 0,
+            "has_more": 1,
+            "user": {
+              "path": "@bfasy",
+              "displayname": "Brittany",
+              "img": "//res.cloudinary.com/moot/image/upload/t_d2-avatar/v1437396260/bfasy.jpg",
+              "is_admin": 1
+            }
+          },
+          "page": {
+            "path": "/comptop/conferences",
+            "title": "Conferences and Deadlines"
+          },
+          "is_watched": 0,
+          "is_silenced": 0,
+          "retired": 0,
+          "is_expanded": 0
+        },
+        {
+          "replies": [],
+          "has_replied": 0,
+          "lastReply": 1437690354691,
+          "reply_count": 1,
+          "path": "/comptop/conferences#applied-topology-and-high-d",
+          "is_relevant": false,
+          "seed": {
+            "spam_level": 0,
+            "is_liked": 0,
+            "is_expanded": 0,
+            "body": [
+              "2015-08-17 to 2015-08-28\nUniversity of Victoria\n\nThis conference aims to bring together applied topologists and spatial statisticians that are curious about each-other's work.  We anticipate having two relatively-distinct groups: 1) topologists that have been working with applied algebraic-topological tools like persistent homology, 2) statisticians working in the area of high-dimensional data analysis, and researchers from fields that involve large data problems.  We aim to have as many general-interest talks as possible but as talks get more technical and special-interest we might see some parallel sessions aimed towards one particular audience. The other principal aspect of the conference is the first week we will have talks aimed primarily at a graduate student audience, covering the most basic topics in algebraic topology, persistent homology, and the basics of the fields people are applying these topics to, such as economics, brain imaging and genomics."
+            ],
+            "title": "Applied Topology and High-Dimensional Data Analysis meeting in Victoria",
+            "key": "applied-topology-and-high-d",
+            "flag": "",
+            "meta": 0,
+            "is_new": 0,
+            "time": 1437638388263,
+            "like_count": 0,
+            "has_more": 0,
+            "user": {
+              "path": "@michiexile",
+              "displayname": "Mikael Vejdemo-Johansson",
+              "img": "//cloudinary-a.akamaihd.net/moot/image/facebook/t_d2-avatar/10153603653473083.jpg"
+            }
+          },
+          "page": {
+            "path": "/comptop/conferences",
+            "title": "Conferences and Deadlines"
+          },
+          "is_watched": 0,
+          "is_silenced": 0,
+          "retired": 0,
+          "is_expanded": 0
+        },
+        {
+          "replies": [],
+          "has_replied": 0,
+          "lastReply": 1437683056874,
+          "reply_count": 2,
+          "path": "/comptop/conferences#shape-up-2015-exercises-in",
+          "is_relevant": false,
+          "seed": {
+            "spam_level": 0,
+            "is_liked": 0,
+            "is_expanded": 0,
+            "body": [
+              "2015-09-14 to 2015-09-18\nBerlin, Germany\n\nShape Up 2015\n\nExercises in Materials Geometry and Topology\n\nThe conference will be an interdisciplinary discussion meeting on\npatterns and geometry, and their role in biological and synthetic\nmicrostructured materials and tissue.. We invite contributions\nfrom biology, chemistry, materials science, mathematics, physics\nand related fields addressing the genesis, properties and function\nof complex nano-scale geometries, as well as underlying geometric\nand topological concepts for the study of complex structure and shape..\n\nThe key areas of interest include:\n\n* Geometric and topological concepts in soft condensed matter\n* Characterization of structure and function\n* Topological data analysis and image reconstruction"
+            ],
+            "title": "Shape Up 2015: Exercises in Materials Geometry and Topology",
+            "key": "shape-up-2015-exercises-in",
+            "flag": "",
+            "meta": 0,
+            "is_new": 0,
+            "time": 1437638452866,
+            "like_count": 0,
+            "has_more": 1,
+            "user": {
+              "path": "@michiexile",
+              "displayname": "Mikael Vejdemo-Johansson",
+              "img": "//cloudinary-a.akamaihd.net/moot/image/facebook/t_d2-avatar/10153603653473083.jpg"
+            }
+          },
+          "page": {
+            "path": "/comptop/conferences",
+            "title": "Conferences and Deadlines"
+          },
+          "is_watched": 0,
+          "is_silenced": 0,
+          "retired": 0,
+          "is_expanded": 0
+        },
+        {
+          "replies": [],
+          "has_replied": 0,
+          "lastReply": 1437678176085,
+          "reply_count": 1,
+          "path": "/comptop/general#does-anyone-still-have-the",
+          "is_relevant": false,
+          "seed": {
+            "spam_level": 0,
+            "is_liked": 0,
+            "is_expanded": 0,
+            "body": [
+              "Someone made one during the Minneapolis year. Liz maybe?"
+            ],
+            "title": "Does anyone still have the link to the TDA 2048 clone?",
+            "key": "does-anyone-still-have-the",
+            "flag": "",
+            "meta": 0,
+            "is_new": 0,
+            "time": 1437643706323,
+            "like_count": 0,
+            "has_more": 0,
+            "user": {
+              "path": "@michiexile",
+              "displayname": "Mikael Vejdemo-Johansson",
+              "img": "//cloudinary-a.akamaihd.net/moot/image/facebook/t_d2-avatar/10153603653473083.jpg"
+            }
+          },
+          "page": {
+            "path": "/comptop/general",
+            "title": "General"
+          },
+          "is_watched": 0,
+          "is_silenced": 0,
+          "retired": 0,
+          "is_expanded": 0
+        }
+      ],
+      "size": 28,
+      "title": "All Posts"
+    }
+  },
+  "session": {
+    "channelId": "mHwgqUedFYtGKKPFQfbfTnpa",
+    "sessionId": "LOUGkmimz4lOE3VoIBTcfnYW.bb43c8775e6e497d9ced3804c5a6b6454807384b"
+  },
+  "execution_time": "8.61ms",
+  "server_time": 1442587702,
+  "pollUrl": "/notifications",
+  "id": "#1"
+}
