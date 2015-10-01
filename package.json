@@ -1,9 +1,14 @@
 {
   "name": "muut",
-  "version": "1.0.0",
+  "version": "0.1.0",
   "description": "generate an rss feed from the mutt site",
   "main": "to_rss.js",
-  "scripts": {
+  "private": true,
+  "repository": {
+      "type": "git",
+      "url": "git://github.com/dlm/muut2RSS"
+  },
+  "to the projectscripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "",
