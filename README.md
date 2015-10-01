@@ -5,4 +5,4 @@ from [compTop's muut](https://muut.com/comptop#!/).  Once I get a version up and
 running for compTop, I will make it easier to configure for other muuts.  Feel
 free to contributed or pass on suggestions.
 
-- Dave <dave@cs.montana.edu>
+- Dave <dave@cs.unc.edu>
