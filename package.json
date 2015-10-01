@@ -1,0 +1,14 @@
+{
+  "name": "muut",
+  "version": "1.0.0",
+  "description": "generate an rss feed from the mutt site",
+  "main": "to_rss.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "rss": "^1.1.1"
+  }
+}
