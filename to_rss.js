@@ -82,7 +82,7 @@ function parseData(response, data) {
     }
     xml = createFeed(extractedEntries);
     response.writeHead(200);
-    response.write(xml);
+    response.end(xml);
 }
 
 function make_mutt_response_processor(client_response) {
