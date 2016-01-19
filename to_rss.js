@@ -3,6 +3,7 @@
  * Created: 07 Sep 2015
  */
 
+var http = require('http');
 var Fs = require('fs');
 var Rss = require('rss');
 var request = require('request');
@@ -71,7 +72,7 @@ function createFeed(entries) {
     return xml;
 }
 
-function parseData(data) {
+function parseData(response, data) {
     var extractedEntries;
     try {
         var entries = data.result.moots.entries;
@@ -80,19 +81,23 @@ function parseData(data) {
         extractedEntries = [makeEntryErrorData()];
     }
     xml = createFeed(extractedEntries);
-    console.log(xml);
+    response.writeHead(200);
+    response.write(xml);
 }
 
-function processResponse(error, response, body) {
-    console.log(response.statusCode);
-    if (error || response.statusCode != 200) {
-        consolse.log(makeEntryErrorData());
-    } else {
-        parseData(body);
-    }
+function make_mutt_response_processor(client_response) {
+    mutt_response_processor = function(error, response, body) {
+        console.log(response.statusCode);
+        if (error || response.statusCode != 200) {
+            consolse.log(makeEntryErrorData());
+        } else {
+            parseData(client_response, body);
+        }
+    };
+    return mutt_response_processor;
 }
 
-function makeRequest() {
+function makeRequest(response) {
     options = {
         url: 'https://api.muut.com/',
         method: 'POST',
@@ -113,18 +118,23 @@ function makeRequest() {
             'transport':'upgrade'
         }
     };
-    request(options, processResponse);
+    mutt_response_processor = make_mutt_response_processor(response);
+    request(options, mutt_response_processor);
 }
 
-makeRequest();
+// function readFile(error, data) {
+//     if (error) {
+//         throw error;
+//     } else {
+//         var jsonData = JSON.parse(data);
+//         parseData(jsonData);
+//     }
+// }
+//Fs.readFile(fileName, 'utf8', readFile);
 
-function readFile(error, data) {
-    if (error) {
-        throw error;
-    } else {
-        var jsonData = JSON.parse(data);
-        parseData(jsonData);
-    }
+
+function requestHandler(request, response) {
+    makeRequest(response);
 }
 
-Fs.readFile(fileName, 'utf8', readFile);
+http.createServer(requestHandler).listen(8080);
