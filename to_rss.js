@@ -11,7 +11,7 @@ var request = require('request');
 // global constans
 var SITE_URL = 'https://muut.com/comptop';
 var FEED_URL = 'https://muut.com/comptop';
-var SESSION_ID = 'vkx7sqKjKuJaZ4fxk5BxWqWz.50ae54e856e5d118bb16b4b3fdaf0b28b7686000';
+var SESSION_ID = "";
 var MAINTAINER_EMAIL = 'dave@cs.unc.edu';
 
 // the data to get things going
