@@ -5,6 +5,7 @@
 
 var Fs = require('fs');
 var Rss = require('rss');
+var request = require('request');
 
 // global constans
 var SITE_URL = 'https://muut.com/comptop';
@@ -82,6 +83,40 @@ function parseData(data) {
     console.log(xml);
 }
 
+function processResponse(error, response, body) {
+    console.log(response.statusCode);
+    if (error || response.statusCode != 200) {
+        consolse.log(makeEntryErrorData());
+    } else {
+        parseData(body);
+    }
+}
+
+function makeRequest() {
+    options = {
+        url: 'https://api.muut.com/',
+        method: 'POST',
+        headers: {'Accept': 'application/json'},
+        json: {
+            'method': 'init',
+            'params':[ {
+                'version': '1.14.0',
+                'path': '/comptop',
+                'currentForum': 'comptop',
+                'pageLocation': 'https://muut.com/comptop',
+                'expand_all': false,
+                'reload': false
+            } ],
+            'id':'#1',
+            'session':{'sessionId': SESSION_ID},
+            'jsonrpc':'2.1.0',
+            'transport':'upgrade'
+        }
+    };
+    request(options, processResponse);
+}
+
+makeRequest();
 
 function readFile(error, data) {
     if (error) {
