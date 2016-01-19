@@ -1,0 +1,782 @@
+{
+  "result": {
+    "has_products": 0,
+    "analytics": {},
+    "user": {},
+    "categories": [
+      {
+        "title": "General",
+        "path": "/comptop/general",
+        "has_new": 0,
+        "category": true
+      },
+      {
+        "title": "R-TDA",
+        "path": "/comptop/r-tda",
+        "has_new": 0,
+        "category": true
+      },
+      {
+        "title": "Other Software",
+        "path": "/comptop/software",
+        "has_new": 0,
+        "category": true
+      },
+      {
+        "title": "Conferences and Deadlines",
+        "path": "/comptop/conferences",
+        "has_new": 0,
+        "category": true
+      },
+      {
+        "title": "Jobs",
+        "path": "/comptop/jobs",
+        "has_new": 0,
+        "category": true
+      },
+      {
+        "title": "Video Requests",
+        "path": "/comptop/video-requests",
+        "has_new": 0,
+        "category": true
+      }
+    ],
+    "users": {
+      "online": [],
+      "away": [],
+      "anon_count": 2
+    },
+    "language": "en",
+    "admins": [
+      {
+        "username": "bfasy",
+        "is_owner": true
+      },
+      {
+        "username": "michiexile"
+      }
+    ],
+    "moots": {
+      "entries": [
+        {
+          "replies": [],
+          "has_replied": 0,
+          "lastReply": 1450176376240,
+          "reply_count": 1,
+          "path": "/comptop/general#computational-topology-td",
+          "is_relevant": false,
+          "seed": {
+            "spam_level": 0,
+            "is_liked": 0,
+            "is_expanded": 0,
+            "body": [
+              "As I'm gearing up to plan my topics course for spring, I'm looking for websites of courses on computational topology (or any variant of the subject ... applied algebraic topology ... topological data analysis, etc.)."
+            ],
+            "title": "Computational Topology / TDA Courses",
+            "key": "computational-topology-td",
+            "flag": "",
+            "meta": 0,
+            "is_new": 0,
+            "time": 1449815719629,
+            "like_count": 1,
+            "has_more": 0,
+            "user": {
+              "path": "@bfasy",
+              "displayname": "Brittany",
+              "img": "//res.cloudinary.com/moot/image/upload/t_d2-avatar/v1437396260/bfasy.jpg",
+              "is_admin": 1
+            }
+          },
+          "page": {
+            "path": "/comptop/general",
+            "title": "General"
+          },
+          "is_watched": 0,
+          "is_silenced": 0,
+          "retired": 0,
+          "is_expanded": 0
+        },
+        {
+          "replies": [],
+          "has_replied": 0,
+          "lastReply": 1449526314646,
+          "reply_count": 0,
+          "path": "/comptop/jobs#interdisciplinary-phd-posit",
+          "is_relevant": false,
+          "seed": {
+            "spam_level": 0,
+            "is_liked": 0,
+            "is_expanded": 0,
+            "body": [
+              "Carola Wenk writes:\nThe Department of Computer Science at Tulane University is seeking PhD students for its Interdisciplinary PhD Program in Computer Science that focuses on the application of computer science and its principles to other areas. The Interdisciplinary PhD Program is an individualized program that consists of graduate training in computer science and another area. This interdisciplinary area can be chosen from other disciplines at Tulane that offer a PhD, including biology, economics, linguistics, mathematics, and psychology.\n\nPhD positions are available for this program to begin in Fall 2016. PhD students receive full financial support in the form of teaching and research assistantships with a generous stipend, including paid tuition.\n\nFor more information about the Interdisciplinary PhD Program in Computer Science visit:\nhttp://tulane.edu/sse/cs/academics/graduate/interdisciplinary-phd-program.cfm\n\nCurrent interdisciplinary research in the department includes artificial intelligence, computational social choice, computational biology, computational geomet"
+            ],
+            "title": "Interdisciplinary PhD positions available at Tulane University",
+            "key": "interdisciplinary-phd-posit",
+            "flag": "",
+            "meta": 0,
+            "is_new": 0,
+            "time": 1449526314646,
+            "like_count": 0,
+            "has_more": 1,
+            "user": {
+              "path": "@michiexile",
+              "displayname": "Mikael Vejdemo-Johansson",
+              "img": "//cloudinary-a.akamaihd.net/moot/image/facebook/t_d2-avatar/10153603653473083.jpg"
+            }
+          },
+          "page": {
+            "path": "/comptop/jobs",
+            "title": "Jobs"
+          },
+          "is_watched": 0,
+          "is_silenced": 0,
+          "retired": 0,
+          "is_expanded": 0
+        },
+        {
+          "replies": [],
+          "has_replied": 0,
+          "lastReply": 1449236580234,
+          "reply_count": 0,
+          "path": "/comptop/jobs#research-fellow-in-data-ana",
+          "is_relevant": false,
+          "seed": {
+            "spam_level": 0,
+            "is_liked": 0,
+            "is_expanded": 0,
+            "body": [
+              "http://www.jobs.ac.uk/job/AMN933/research-fellow-in-data-analysis/\n\nMathematics, Statistics and Machine Learning for Data Analysis\n\nApplications are invited for up to four research positions supported by an EPSRC grant \"Joining the dots: from data to insight\"                       (http://gow.epsrc.ac.uk/NGBOViewGrant.aspx?GrantRef=EP/N014189/1).   This programme will develop a powerful synthesis of methods from topology, statistics and machine learning for applications in medicine and computational chemistry.\n\nThe positions arise in the context of a new exciting interdisciplinary programme developed at Southampton by a team of scientists from Mathematical Sciences, Computer Science, Medicine and Chemistry under the umbrella of the Institute for Life Sciences. The work will cover a wide range of problems from developing new data analytic methodology, algorithmic implementations, to specific applications. Our exemplar applications include clinical studies of asthma (in collaboration with U-BIOPRED, the largest asthma research consortium in the world) and computational mol"
+            ],
+            "title": "Research fellow in Data Analysis at Southampton",
+            "key": "research-fellow-in-data-ana",
+            "flag": "",
+            "meta": 0,
+            "is_new": 0,
+            "time": 1449236580234,
+            "like_count": 0,
+            "has_more": 1,
+            "user": {
+              "path": "@michiexile",
+              "displayname": "Mikael Vejdemo-Johansson",
+              "img": "//cloudinary-a.akamaihd.net/moot/image/facebook/t_d2-avatar/10153603653473083.jpg"
+            }
+          },
+          "page": {
+            "path": "/comptop/jobs",
+            "title": "Jobs"
+          },
+          "is_watched": 0,
+          "is_silenced": 0,
+          "retired": 0,
+          "is_expanded": 0
+        },
+        {
+          "replies": [],
+          "has_replied": 0,
+          "lastReply": 1448888671439,
+          "reply_count": 0,
+          "path": "/comptop/conferences#workshop-applied-algebraic",
+          "is_relevant": false,
+          "seed": {
+            "spam_level": 0,
+            "is_liked": 0,
+            "is_expanded": 0,
+            "body": [
+              "Michael Farber writes:\n\nOn January 22 we shall have workshop \"Applied Algebraic Topology\" at Queen Mary, University of London. \nThere will be 4 talks given by:\n\nGinestra Bianconi (QM)\nHeather Harrington (Oxford)\nMartin Liebeck (Imperial) \nDirk Schuetz (Durham) \n\nThe talks will start at 10 am and the workshop will be closed at 16.30. \nFor more information about the workshop please contact Michael Farber (M.Farber@qmul.ac.uk).\n\nThe workshop is supported by a grant from the London Mathematical Society."
+            ],
+            "title": "Workshop \"Applied algebraic topology\", London, 22 January 2016",
+            "key": "workshop-applied-algebraic",
+            "flag": "",
+            "meta": 0,
+            "is_new": 0,
+            "time": 1448888671439,
+            "like_count": 0,
+            "has_more": 0,
+            "user": {
+              "path": "@michiexile",
+              "displayname": "Mikael Vejdemo-Johansson",
+              "img": "//cloudinary-a.akamaihd.net/moot/image/facebook/t_d2-avatar/10153603653473083.jpg"
+            }
+          },
+          "page": {
+            "path": "/comptop/conferences",
+            "title": "Conferences and Deadlines"
+          },
+          "is_watched": 0,
+          "is_silenced": 0,
+          "retired": 0,
+          "is_expanded": 0
+        },
+        {
+          "replies": [],
+          "has_replied": 0,
+          "lastReply": 1448205731969,
+          "reply_count": 5,
+          "path": "/comptop/general#studying-applied-topology",
+          "is_relevant": false,
+          "seed": {
+            "spam_level": 0,
+            "is_liked": 0,
+            "is_expanded": 0,
+            "body": [
+              "Hi, I'm studying master in mathematics and I am interested in applied topology. Which courses should I take? Which books should I read? Should I take courses from Computer Science?\nthanks a lot :)"
+            ],
+            "title": "Studying Applied Topology",
+            "key": "studying-applied-topology",
+            "flag": "",
+            "meta": 0,
+            "is_new": 0,
+            "time": 1447834229529,
+            "like_count": 0,
+            "has_more": 0,
+            "user": {
+              "path": "@shahabsherveh",
+              "displayname": "shahab sh",
+              "img": "//cloudinary-a.akamaihd.net/moot/image/gplus/t_d2-avatar/105730303123372143810.jpg"
+            }
+          },
+          "page": {
+            "path": "/comptop/general",
+            "title": "General"
+          },
+          "is_watched": 0,
+          "is_silenced": 0,
+          "retired": 0,
+          "is_expanded": 0
+        },
+        {
+          "replies": [],
+          "has_replied": 0,
+          "lastReply": 1447414601866,
+          "reply_count": 1,
+          "path": "/comptop/r-tda#optimum-maxscale-parameter",
+          "is_relevant": false,
+          "seed": {
+            "spam_level": 0,
+            "is_liked": 0,
+            "is_expanded": 0,
+            "body": [
+              "In the function ripsDiag (R package TDA), there is a variable maxscale that (from what I understand) is (related) to the maximum value of the epsilon parameter (radius of sphere) in the rips filtration. A large choice creates too big simplicial complexes and the computer runs out of memory. On the other hand, a small value misses topological features. I've also noted that there is an interplay between number density and maxscale value for the evaluation of the Betti numbers (in general high density point clouds tend to need smaller values for maxscale).\n\nFor example\n\n    library(\"TDA\")\n    XX <- circleUnif(30)\n    maxscale <- .1 \n    maxdimension <- 1\n    Diag <- ripsDiag(XX, maxdimension, maxscale, printProgress =     \n    TRUE,dist=\"euclidean\",library=\"Dionysus\")\n\nmisses the betti_1=1 topological feature. This is captured for maxscale > 1.0. On the other hand for 1000 random points on the unit circle,\n\nXX <- circleUnif(1000)\nmaxscale <- 0.1 \nis sufficient for the ripsDiag to catch all topological features. If I use here the used value from the manual for the case of 30"
+            ],
+            "title": "Optimum maxscale parameter value for cloud points",
+            "key": "optimum-maxscale-parameter",
+            "flag": "",
+            "meta": 0,
+            "is_new": 0,
+            "time": 1447300746693,
+            "like_count": 0,
+            "has_more": 1,
+            "user": {
+              "path": "@fdiakogiannis",
+              "displayname": "Foivos Diakogiannis",
+              "img": "//cloudinary-a.akamaihd.net/moot/image/gplus/t_d2-avatar/118195309817629330294.jpg"
+            }
+          },
+          "page": {
+            "path": "/comptop/r-tda",
+            "title": "R-TDA"
+          },
+          "is_watched": 0,
+          "is_silenced": 0,
+          "retired": 0,
+          "is_expanded": 0
+        },
+        {
+          "replies": [],
+          "has_replied": 0,
+          "lastReply": 1447397510147,
+          "reply_count": 0,
+          "path": "/comptop/conferences#symposium-prospects-in-dat",
+          "is_relevant": false,
+          "seed": {
+            "spam_level": 0,
+            "is_liked": 0,
+            "is_expanded": 0,
+            "body": [
+              "Prospects in Data Science – A multidisciplinary symposium\nSet in the heart of the gorgeous New Forest, this Data Science Symposium organised by the University of Southampton brings together a multi-institutional, high-profile panel of speakers to promote the cross-fertilisation of ideas between the different domains of Data Science, particularly Statistics, Mathematics and Computer Science, and data practitioners from both academia and industry.\nConfirm speakers include:\nJohn Aston (University of Cambridge)\nGunnar Carlsson (Stanford University)\nFai Cheng (Lloyd's Register Group)\nDave Coplin (Microsoft UK)\nMark Girolami (University of Warwick)\nArthur Gretton (University College London)\nPeter Grindrod (University of Oxford)\nYike Guo (Imperial College London)\nWendy Hall (University of Southampton)\nDavid Hand (Imperial College London)\nVitalyi Kurlin (Durham University)\nJane Naylor (Office for National Statistics)\nSofia Olhede (University College London)\nNigel Shadbolt (University of Oxford)\nAnne Trefethen (University of Oxford)\nFrank Woods (University of Oxford)\nDates: 12-14"
+            ],
+            "title": "Symposium: Prospects in Data Science @ Southampton",
+            "key": "symposium-prospects-in-dat",
+            "flag": "",
+            "meta": 0,
+            "is_new": 0,
+            "time": 1447397510147,
+            "like_count": 0,
+            "has_more": 1,
+            "user": {
+              "path": "@michiexile",
+              "displayname": "Mikael Vejdemo-Johansson",
+              "img": "//cloudinary-a.akamaihd.net/moot/image/facebook/t_d2-avatar/10153603653473083.jpg"
+            }
+          },
+          "page": {
+            "path": "/comptop/conferences",
+            "title": "Conferences and Deadlines"
+          },
+          "is_watched": 0,
+          "is_silenced": 0,
+          "retired": 0,
+          "is_expanded": 0
+        },
+        {
+          "replies": [],
+          "has_replied": 0,
+          "lastReply": 1447275207604,
+          "reply_count": 0,
+          "path": "/comptop/general#prospects-in-data-science",
+          "is_relevant": false,
+          "seed": {
+            "spam_level": 0,
+            "is_liked": 0,
+            "is_expanded": 0,
+            "body": [
+              "Prospects in Data Science - A multidisciplinary symposium \n\nSet in the heart of the gorgeous New Forest, this Data Science Symposium organised by the University of Southampton brings together a multi-institutional, high-profile panel of speakers to promote the cross-fertilisation of ideas between the different domains of Data Science, particularly Statistics, Mathematics and Computer Science, and data practitioners from both academia and industry. \n\nConfirm speakers include: \nJohn Aston (University of Cambridge) \nGunnar Carlsson (Stanford University) \nFai Cheng (Lloyd's Register Group) \nDave Coplin (Microsoft UK) \nMark Girolami (University of Warwick) \nArthur Gretton (University College London) \nPeter Grindrod (University of Oxford) \nYike Guo (Imperial College London) \nWendy Hall (University of Southampton) \nDavid Hand (Imperial College London) \nVitalyi Kurlin (Durham University) \nJane Naylor (Office for National Statistics) \nSofia Olhede (University College London) \nNigel Shadbolt (University of Oxford) \nAnne Trefethen (University of Oxford) "
+            ],
+            "title": "Prospects in Data Science @ Southampton",
+            "key": "prospects-in-data-science",
+            "flag": "",
+            "meta": 0,
+            "is_new": 0,
+            "time": 1447275207604,
+            "like_count": 0,
+            "has_more": 1,
+            "user": {
+              "path": "@michiexile",
+              "displayname": "Mikael Vejdemo-Johansson",
+              "img": "//cloudinary-a.akamaihd.net/moot/image/facebook/t_d2-avatar/10153603653473083.jpg"
+            }
+          },
+          "page": {
+            "path": "/comptop/general",
+            "title": "General"
+          },
+          "is_watched": 0,
+          "is_silenced": 0,
+          "retired": 0,
+          "is_expanded": 0
+        },
+        {
+          "replies": [],
+          "has_replied": 0,
+          "lastReply": 1447045068505,
+          "reply_count": 1,
+          "path": "/comptop/conferences#second-schoolconference-in",
+          "is_relevant": false,
+          "seed": {
+            "spam_level": 0,
+            "is_liked": 0,
+            "is_expanded": 0,
+            "body": [
+              "Second School/Conference in TDA, Stochastic Topology and related topics\n\n2015-12-7 to 2015-12-11\n\nQueretaro, Mexico\n\nhttp://atd.cimat.mx/segunda-escuela-2015  (in Spanish)\n\nSpeakers confirmed: \n• Ulrich Bauer \n• Peter Bubenik \n• Gunnar Carlsson \n• Armando Castañeda \n• Frederic Chazal \n• Herbert Edelsbrunner \n• Michael Farber\n• Patricio Frosini \n• Heather A. Harrington \n• Maurice Herlihy \n• Neza Mramor-Kosta "
+            ],
+            "title": "Second School/Conference in TDA, Stochastic Topology and related topics",
+            "key": "second-schoolconference-in",
+            "flag": "",
+            "meta": 0,
+            "is_new": 0,
+            "time": 1437700976089,
+            "like_count": 0,
+            "has_more": 1,
+            "user": {
+              "path": "@bfasy",
+              "displayname": "Brittany",
+              "img": "//res.cloudinary.com/moot/image/upload/t_d2-avatar/v1437396260/bfasy.jpg",
+              "is_admin": 1
+            }
+          },
+          "page": {
+            "path": "/comptop/conferences",
+            "title": "Conferences and Deadlines"
+          },
+          "is_watched": 0,
+          "is_silenced": 0,
+          "retired": 0,
+          "is_expanded": 0
+        },
+        {
+          "replies": [],
+          "has_replied": 0,
+          "lastReply": 1446451676583,
+          "reply_count": 0,
+          "path": "/comptop/jobs#grad-students-wanted",
+          "is_relevant": false,
+          "seed": {
+            "spam_level": 0,
+            "is_liked": 0,
+            "is_expanded": 0,
+            "body": [
+              "A position is available for a PhD student in topological data\nanalysis (TDA) / computational topology under the supervision of Brittany Terese Fasy at Montana State University.  Applicants must hold a bachelor's or master's  degree (or equivalent) in computer science, mathematics, statistics, or a \nrelated field.  The applicant should have a good knowledge of algorithms, \nand discrete mathematics.  Strong mathematical ability is required, but specific knowledge of topology is not necessary to apply.  Students with an interest in interdisciplinary research will be preferred.\n\nDr. Fasy's research combines mathematics and computer science.  Often, the research begins with a motivating example.  The \n[TDA community at MSU](http://www.cs.montana.edu/brittany/research/TDA-flyer.pdf)\n is growing, and spans across multiple colleges.  Dr. Fasy has a joint lab with two other faculty members, Dr. Brendan Mumey and Dr. Mike Wittie.  Their lab, the \n[Network + Algorithms Lab](http://www.cs.montana.edu/brittany/research/NAL-flyer.pdf)\n works on a diverse set of research questions rela"
+            ],
+            "title": "Grad Students Wanted!",
+            "key": "grad-students-wanted",
+            "flag": "",
+            "meta": 0,
+            "is_new": 0,
+            "time": 1446451676583,
+            "like_count": 0,
+            "has_more": 1,
+            "user": {
+              "path": "@bfasy",
+              "displayname": "Brittany",
+              "img": "//res.cloudinary.com/moot/image/upload/t_d2-avatar/v1437396260/bfasy.jpg",
+              "is_admin": 1
+            }
+          },
+          "page": {
+            "path": "/comptop/jobs",
+            "title": "Jobs"
+          },
+          "is_watched": 0,
+          "is_silenced": 0,
+          "retired": 0,
+          "is_expanded": 0
+        },
+        {
+          "replies": [],
+          "has_replied": 0,
+          "lastReply": 1445890631583,
+          "reply_count": 0,
+          "path": "/comptop/jobs#wayne-state",
+          "is_relevant": false,
+          "seed": {
+            "spam_level": 0,
+            "is_liked": 0,
+            "is_expanded": 0,
+            "body": [
+              "Dan Isaksen <isaksen@wayne.edu> writes to ALGTOP-L: \n\nWayne State is searching for a tenure-track position in statistics or related areas this year.  If you work in topological data analysis, I suggest that you to apply at mathjobs.org.  The official announcement is below.  Feel free to contact me for more information.\n\n********************************************************************** *******\n\nThe Department of Mathematics at Wayne State University invites applications for a tenure-track or tenured position at the Assistant Professor, Associate Professor, or Full Professor level, commencing in fall, 2016. The Department is especially interested in hiring in statistics or related areas, but exceptional candidates from any area of mathematics are invited to apply. Applications should include a signed, detailed vita, description of current research interests, and four letters of recommendation, one of which should address teaching. Solid evidence of effective teaching at the undergraduate level is preferred to a statement of teaching philosophy. A Ph.D. in statistics o"
+            ],
+            "title": "Wayne State",
+            "key": "wayne-state",
+            "flag": "",
+            "meta": 0,
+            "is_new": 0,
+            "time": 1445890631583,
+            "like_count": 0,
+            "has_more": 1,
+            "user": {
+              "path": "@michiexile",
+              "displayname": "Mikael Vejdemo-Johansson",
+              "img": "//cloudinary-a.akamaihd.net/moot/image/facebook/t_d2-avatar/10153603653473083.jpg"
+            }
+          },
+          "page": {
+            "path": "/comptop/jobs",
+            "title": "Jobs"
+          },
+          "is_watched": 0,
+          "is_silenced": 0,
+          "retired": 0,
+          "is_expanded": 0
+        },
+        {
+          "replies": [],
+          "has_replied": 0,
+          "lastReply": 1445628282874,
+          "reply_count": 1,
+          "path": "/comptop/software#alpha-shapes-in-dionysus",
+          "is_relevant": false,
+          "seed": {
+            "spam_level": 0,
+            "is_liked": 0,
+            "is_expanded": 0,
+            "body": [
+              "How do you run the alphashapes2d example in Dionysus?"
+            ],
+            "title": "Alpha Shapes in Dionysus",
+            "key": "alpha-shapes-in-dionysus",
+            "flag": "",
+            "meta": 0,
+            "is_new": 0,
+            "time": 1445572969053,
+            "like_count": 0,
+            "has_more": 0,
+            "user": {
+              "path": "@bfasy",
+              "displayname": "Brittany",
+              "img": "//res.cloudinary.com/moot/image/upload/t_d2-avatar/v1437396260/bfasy.jpg",
+              "is_admin": 1
+            }
+          },
+          "page": {
+            "path": "/comptop/software",
+            "title": "Other Software"
+          },
+          "is_watched": 0,
+          "is_silenced": 0,
+          "retired": 0,
+          "is_expanded": 0
+        },
+        {
+          "replies": [],
+          "has_replied": 0,
+          "lastReply": 1445452794097,
+          "reply_count": 0,
+          "path": "/comptop/jobs#postdoctoral-positions-at-p",
+          "is_relevant": false,
+          "seed": {
+            "spam_level": 0,
+            "is_liked": 0,
+            "is_expanded": 0,
+            "body": [
+              "Applicants are invited for two postdoctoral positions at the interface of theoretical neuroscience and algebraic topology or applied algebra. An ideal candidate is a mathematics Ph.D. with background in areas such as algebraic topology, geometry, or commutative algebra. Prior familiarity with neuroscience is not required, but interest in learning the relevant background is expected. The postdoctoral fellow will engage in the development of novel mathematical methods for understanding neural coding and neural networks.\n\nTo apply for this position, please submit your application via the mathjobs.org website in response to the job ad http://www.mathjobs.org/jobs/jobs/7575\n\nFurther information can be received from vladimir.itskov@math.psu.edu. \nSee also http://sites.psu.edu/mathneurolab/ for more information.  \n\nThe closing date for applications is November 15, 2015."
+            ],
+            "title": "Postdoctoral positions at Penn State",
+            "key": "postdoctoral-positions-at-p",
+            "flag": "",
+            "meta": 0,
+            "is_new": 0,
+            "time": 1445452794097,
+            "like_count": 0,
+            "has_more": 0,
+            "user": {
+              "path": "@vui1",
+              "displayname": "vui1",
+              "img": "//secure.gravatar.com/avatar/1999a0e0470f73dad28fcf2ab5239c0d?s=120&d=https%3A//cloudinary-a.akamaihd.net/moot/image/upload/t_d2-avatar/v1364433564/moot.jpg"
+            }
+          },
+          "page": {
+            "path": "/comptop/jobs",
+            "title": "Jobs"
+          },
+          "is_watched": 0,
+          "is_silenced": 0,
+          "retired": 0,
+          "is_expanded": 0
+        },
+        {
+          "replies": [],
+          "has_replied": 0,
+          "lastReply": 1445264313293,
+          "reply_count": 2,
+          "path": "/comptop/general#tda-events-in-the-greater-n",
+          "is_relevant": false,
+          "seed": {
+            "spam_level": 0,
+            "is_liked": 0,
+            "is_expanded": 0,
+            "body": [
+              "Hi everyone! I've started keeping a google calendar for TDA events in the greater NYC area here: [NYC TDA calendar](https://calendar.google.com/calendar/embed?src=cTRwYXJtcWMyZ3RsYXYxYnJ2a3ZoNGRzM29AZ3JvdXAuY2FsZW5kYXIuZ29vZ2xlLmNvbQ)\n\nIf you have any events to add, please let me know and I can either add the event for you or add you as an administrator if that makes more sense.\n\n*Upcoming events of interest:*\nNov 7 - Workshop on Topology: Identifying Order in Complex Systems, IAS\nNov 14-15 - AMS Special Session on Topological Data Analysis: Computations, Statistics, and Applications, Rutgers University"
+            ],
+            "title": "TDA Events in the greater NYC area",
+            "key": "tda-events-in-the-greater-n",
+            "flag": "",
+            "meta": 0,
+            "is_new": 0,
+            "time": 1445261023762,
+            "like_count": 1,
+            "has_more": 0,
+            "user": {
+              "path": "@rlevanger",
+              "displayname": "Rachel Levanger",
+              "img": "//cloudinary-a.akamaihd.net/moot/image/gplus/t_d2-avatar/100105826710814704228.jpg"
+            }
+          },
+          "page": {
+            "path": "/comptop/general",
+            "title": "General"
+          },
+          "is_watched": 0,
+          "is_silenced": 0,
+          "retired": 0,
+          "is_expanded": 0
+        },
+        {
+          "replies": [],
+          "has_replied": 0,
+          "lastReply": 1444235112350,
+          "reply_count": 0,
+          "path": "/comptop/general#data-sets-in-tda",
+          "is_relevant": false,
+          "seed": {
+            "spam_level": 0,
+            "is_liked": 0,
+            "is_expanded": 0,
+            "body": [
+              "Dear all\ni have found that site is plenty of dataset in the multivariate case\n https://archive.ics.uci.edu/ml/datasets.html.\nmay any one has another site that is suitable for TOPOLOGY DATA ANALYSIS. In other words \"What are some publicly available data sets that are commonly used for TDA?\nBEST REGARDS"
+            ],
+            "title": "data sets in TDA",
+            "key": "data-sets-in-tda",
+            "flag": "",
+            "meta": 0,
+            "is_new": 0,
+            "time": 1444235112350,
+            "like_count": 0,
+            "has_more": 0,
+            "user": {
+              "path": "@solimanstatistics",
+              "displayname": "Mohamed Soliman",
+              "img": "//cloudinary-a.akamaihd.net/moot/image/facebook/t_d2-avatar/1711020205788064.jpg"
+            }
+          },
+          "page": {
+            "path": "/comptop/general",
+            "title": "General"
+          },
+          "is_watched": 0,
+          "is_silenced": 0,
+          "retired": 0,
+          "is_expanded": 0
+        },
+        {
+          "replies": [],
+          "has_replied": 0,
+          "lastReply": 1444158062069,
+          "reply_count": 0,
+          "path": "/comptop/jobs#phd-studentship-in-mathemat",
+          "is_relevant": false,
+          "seed": {
+            "spam_level": 0,
+            "is_liked": 0,
+            "is_expanded": 0,
+            "body": [
+              "(posting on behalf of Michael Farber)\n\nWe invite applications for a fully funded 3 years' PhD studentship commencing in January 2016. The research project will deal with developing new topological and geometric algorithms for video data compression and with other problems of analysis of large data. The project will be sponsored by the Queen Mary, University of London and by the Penteract 28 and will be supervised by representatives of both institutions. The candidates must have basic knowledge of pure and applied mathematics; it is desirable that the candidates are familiar with geometry, topology, statistics, elements of computer science and data analysis.\n\nThe deadline for applications is: November 16, 2015.\n\nThe application procedure is described at\n\nhttp://www.qmul.ac.uk/postgraduate/research/subjects/mathematical-sciences/index.html\n\nFor further enquiries please contact Prof. Michael Farber <m.farber@qmul.ac.uk> or Dr Danijela Hora <danijela.horak@gmail.com>."
+            ],
+            "title": "PhD Studentship in Mathematics",
+            "key": "phd-studentship-in-mathemat",
+            "flag": "",
+            "meta": 0,
+            "is_new": 0,
+            "time": 1444158062069,
+            "like_count": 0,
+            "has_more": 0,
+            "user": {
+              "path": "@bfasy",
+              "displayname": "Brittany",
+              "img": "//res.cloudinary.com/moot/image/upload/t_d2-avatar/v1437396260/bfasy.jpg",
+              "is_admin": 1
+            }
+          },
+          "page": {
+            "path": "/comptop/jobs",
+            "title": "Jobs"
+          },
+          "is_watched": 0,
+          "is_silenced": 0,
+          "retired": 0,
+          "is_expanded": 0
+        },
+        {
+          "replies": [],
+          "has_replied": 0,
+          "lastReply": 1443616824979,
+          "reply_count": 2,
+          "path": "/comptop/software#converting-a-digital-image",
+          "is_relevant": false,
+          "seed": {
+            "spam_level": 0,
+            "is_liked": 0,
+            "is_expanded": 0,
+            "body": [
+              "We would like to compute persistent diagrams of gray-scale digital images obtained from (micro) ct-scans.  How can we convert such a digital image to a input file (e.g boundary matrix, persistent pairs) format? \n\nHere is the specific format in 2D that we are interested in. \n\n2 : this is the dimension of the cubical grid \n3 : this is the number of cubes along the first dimension \n4 : this is the number of cubes along the second dimension \n1 : this is the birth time of the 2D cube anchored at (0,0) \n2 : this is the birth time of the 2D cube anchored at (1,0) t\n1 : this is the birth time of the 2D cube anchored at (2,0) \n2 : this is the birth time of the 2D cube anchored at (0,1) \n-1 : this indicates that there is no cube anchored at at (1,1) \n2 : this is the birth time of the 2D cube anchored at (2,1)   \n\nIt is taken from the Perseus project webpage of Vidit Nanda and similar to persistence_pairs-ascii format.  For more info one can check http://www.sas.upenn.edu/~v"
+            ],
+            "title": "Converting a digital image to an input file (e.g. boundary matrix)",
+            "key": "converting-a-digital-image",
+            "flag": "",
+            "meta": 0,
+            "is_new": 0,
+            "time": 1442307220080,
+            "like_count": 0,
+            "has_more": 1,
+            "user": {
+              "path": "@aliduman",
+              "displayname": "Ali Nabi Duman",
+              "img": "//cloudinary-a.akamaihd.net/moot/image/gplus/t_d2-avatar/108345745015004437555.jpg"
+            }
+          },
+          "page": {
+            "path": "/comptop/software",
+            "title": "Other Software"
+          },
+          "is_watched": 0,
+          "is_silenced": 0,
+          "retired": 0,
+          "is_expanded": 0
+        },
+        {
+          "replies": [],
+          "has_replied": 0,
+          "lastReply": 1443109236922,
+          "reply_count": 3,
+          "path": "/comptop/general#svm-on-concatenated-lambdas",
+          "is_relevant": false,
+          "seed": {
+            "spam_level": 0,
+            "is_liked": 0,
+            "is_expanded": 0,
+            "body": [
+              "Hi there, \nI was hoping someone could help explain to me what exactly this means:\nGiven persistence landscapes with functions lambda1(t), ....lambdak(t), where k =15, what does it mean to do SVM on concatenated lambdas? I don't really understand this concept, and would like to have some clarity. \nThanks!"
+            ],
+            "title": "SVM on Concatenated Lambdas",
+            "key": "svm-on-concatenated-lambdas",
+            "flag": "",
+            "meta": 0,
+            "is_new": 0,
+            "time": 1438751182105,
+            "like_count": 0,
+            "has_more": 0,
+            "user": {
+              "path": "@lstat",
+              "displayname": "lstat",
+              "img": "//secure.gravatar.com/avatar/2e903b97ef9133257a6ea61220890fc7?s=120&d=https%3A//cloudinary-a.akamaihd.net/moot/image/upload/t_d2-avatar/v1364433564/moot.jpg"
+            }
+          },
+          "page": {
+            "path": "/comptop/general",
+            "title": "General"
+          },
+          "is_watched": 0,
+          "is_silenced": 0,
+          "retired": 0,
+          "is_expanded": 0
+        },
+        {
+          "replies": [],
+          "has_replied": 0,
+          "lastReply": 1443108180892,
+          "reply_count": 1,
+          "path": "/comptop/general#applications-in-undergradua",
+          "is_relevant": false,
+          "seed": {
+            "spam_level": 0,
+            "is_liked": 0,
+            "is_expanded": 0,
+            "body": [
+              "At our small, undergraduate institution, it is always a struggle to get enough students to offer our introductory topology course.  With the growth of computational topology and topological data analysis, it has occurred to us that incorporating applications into our topology course might make it more attractive to students.  If anyone has already made or is planning such a modification to a first undergraduate topology course, my colleagues and I would be very interested in hearing about it."
+            ],
+            "title": "Applications in undergraduate topology course",
+            "key": "applications-in-undergradua",
+            "flag": "",
+            "meta": 0,
+            "is_new": 0,
+            "time": 1437660314096,
+            "like_count": 1,
+            "has_more": 0,
+            "user": {
+              "path": "@hughesjr",
+              "displayname": "hughesjr",
+              "img": "//secure.gravatar.com/avatar/57367e5a2ecabdd12a5512da9de251f3?s=120&d=https%3A//cloudinary-a.akamaihd.net/moot/image/upload/t_d2-avatar/v1364433564/moot.jpg"
+            }
+          },
+          "page": {
+            "path": "/comptop/general",
+            "title": "General"
+          },
+          "is_watched": 0,
+          "is_silenced": 0,
+          "retired": 0,
+          "is_expanded": 0
+        }
+      ],
+      "size": 44,
+      "title": "All Posts"
+    }
+  },
+  "session": {
+    "channelId": "we7eqFrUHCV1DG7vsoyQ1AbS",
+    "sessionId": "qKEVB4g8l3hbSMUx6MEOmvhB.ad8ebf8013b1392139eaabec7fabe064f14b6200"
+  },
+  "id": "#1",
+  "execution_time": "9.3331171875ms",
+  "pollUrl": "/notifications",
+  "server_time": 1453181248
+}
