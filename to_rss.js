@@ -82,11 +82,14 @@ function parseData(data) {
     console.log(xml);
 }
 
-// read file
-Fs.readFile(fileName, 'utf8', function(err, data) {
-    if (err) { throw err; }
-    else {
+
+function readFile(error, data) {
+    if (error) {
+        throw error;
+    } else {
         var jsonData = JSON.parse(data);
         parseData(jsonData);
     }
-});
+}
+
+Fs.readFile(fileName, 'utf8', readFile);
