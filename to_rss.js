@@ -13,7 +13,7 @@ var SESSION_ID = 'vkx7sqKjKuJaZ4fxk5BxWqWz.50ae54e856e5d118bb16b4b3fdaf0b28b7686
 var MAINTAINER_EMAIL = 'dave@cs.unc.edu';
 
 // the data to get things going
-var fileName = 'data/data-2015-09-18.json';
+var fileName = 'data/data-2016-01-19.json';
 var extracted_data = {};
 
 function makeEntryData(author, description, postTitle, url, guid, date) {
