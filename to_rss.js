@@ -1,7 +1,3 @@
-/*
- * Author: Dave Millman <dave@cs.unc.edu>
- * Created: 07 Sep 2015
- */
 
 var http = require('http');
 var Fs = require('fs');
