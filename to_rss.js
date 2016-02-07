@@ -1,3 +1,5 @@
+/*jslint node: true */
+'use strict';
 
 var http = require('http');
 var Fs = require('fs');
@@ -26,12 +28,12 @@ function makeEntryData(author, description, postTitle, url, guid, date) {
 }
 
 function makeEntryErrorData() {
-    author = 'ERROR';
-    description = 'There was an error extracting data from an entry. ' +
+    var author = 'ERROR';
+    var description = 'There was an error extracting data from an entry. ' +
         'Please contact ' + MAINTAINER_EMAIL + ' to report an error.';
-    postTitle = 'Error extracting data for an entry';
-    guid = new Date().getTime();
-    date = guid;
+    var postTitle = 'Error extracting data for an entry';
+    var guid = new Date().getTime();
+    var date = guid;
     return makeEntryData(author, description, postTitle, guid, date);
 }
 
@@ -53,7 +55,7 @@ function extract(entry) {
 }
 
 function createFeed(entries) {
-    feed = new Rss({
+    var feed = new Rss({
         'title': 'Computational Topology Message Board',
         'description': 'RSS feed of the computational topology message board',
         'feed_url': FEED_URL,
@@ -76,14 +78,14 @@ function parseData(response, data) {
     } catch (error) {
         extractedEntries = [makeEntryErrorData()];
     }
-    xml = createFeed(extractedEntries);
+    var xml = createFeed(extractedEntries);
     response.writeHead(200);
     response.end(xml);
 }
 
 function make_mutt_response_processor(client_response) {
-    mutt_response_processor = function(error, response, body) {
         console.log(response.statusCode);
+    var mutt_response_processor = function(error, response, body) {
         if (error || response.statusCode != 200) {
             consolse.log(makeEntryErrorData());
         } else {
@@ -94,7 +96,7 @@ function make_mutt_response_processor(client_response) {
 }
 
 function makeRequest(response) {
-    options = {
+    var options = {
         url: 'https://api.muut.com/',
         method: 'POST',
         headers: {'Accept': 'application/json'},
@@ -114,7 +116,7 @@ function makeRequest(response) {
             'transport':'upgrade'
         }
     };
-    mutt_response_processor = make_mutt_response_processor(response);
+    var mutt_response_processor = make_mutt_response_processor(response);
     request(options, mutt_response_processor);
 }
 
