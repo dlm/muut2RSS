@@ -84,10 +84,9 @@ function parseData(response, data) {
 }
 
 function make_mutt_response_processor(client_response) {
-        console.log(response.statusCode);
     var mutt_response_processor = function(error, response, body) {
         if (error || response.statusCode != 200) {
-            consolse.log(makeEntryErrorData());
+            makeEntryErrorData();
         } else {
             parseData(client_response, body);
         }
