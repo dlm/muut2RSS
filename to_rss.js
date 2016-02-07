@@ -1,7 +1,6 @@
 /*jslint node: true */
 'use strict';
 
-var http = require('http');
 var Fs = require('fs');
 var Rss = require('rss');
 var request = require('request');
@@ -128,10 +127,4 @@ function makeRequest(response) {
 //     }
 // }
 //Fs.readFile(fileName, 'utf8', readFile);
-
-
-function requestHandler(request, response) {
-    makeRequest(response);
-}
-
-http.createServer(requestHandler).listen(8080);
+exports.toRss = makeRequest;

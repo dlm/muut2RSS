@@ -2,7 +2,7 @@
   "name": "muut",
   "version": "0.1.0",
   "description": "generate an rss feed from the mutt site",
-  "main": "to_rss.js",
+  "main": "server.js",
   "private": true,
   "repository": {
       "type": "git",
@@ -15,6 +15,8 @@
   "license": "ISC",
   "dependencies": {
     "request": "^2.64.0",
-    "rss": "^1.1.1"
-  }
+    "rss": "^1.1.1",
+    "router": "^1.1.4",
+    "finalhandler": "^0.4.1"
+   }
 }
