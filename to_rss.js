@@ -1,64 +1,78 @@
-/*jslint node: true */
+/*jslint node: true, esversion: 6 */
 'use strict';
 
 var Fs = require('fs');
 var Rss = require('rss');
 var request = require('request');
 
-// global constans
-var SITE_URL = 'https://muut.com/comptop';
-var FEED_URL = 'https://muut.com/comptop';
-var SESSION_ID = "";
-var MAINTAINER_EMAIL = 'dave@cs.unc.edu';
+class Muut {
 
-// the data to get things going
-var fileName = 'data/data-2016-01-19.json';
-var extracted_data = {};
-
-function makeEntryData(author, description, postTitle, url, guid, date) {
-    return {
-        'title': postTitle,
-        'description': description,
-        'url': url,
-        'guid': guid,
-        'author': author,
-        'date': date
-    };
-}
-
-function makeEntryErrorData() {
-    var author = 'ERROR';
-    var description = 'There was an error extracting data from an entry. ' +
-        'Please contact ' + MAINTAINER_EMAIL + ' to report an error.';
-    var postTitle = 'Error extracting data for an entry';
-    var guid = new Date().getTime();
-    var date = guid;
-    return makeEntryData(author, description, postTitle, guid, date);
-}
-
-function extract(entry) {
-    var entryData;
-    try {
-        var seed = entry.seed;
-        var author = seed.user.displayname;
-        var description = seed.body;
-        var postTitle = seed.title;
-        var guid = seed.key;
-        var date = seed.time;
-        entryData = makeEntryData(author, description, postTitle,
-                                  SITE_URL, guid, date);
-    } catch (error) {
-        entryData = makeEntryErrorData();
+    constructor(board, maintainer_email, title, description) {
+        this.board = board;
+        this.maintainer_email = maintainer_email;
+        this.title = title;
+        this.description = description;
     }
-    return entryData;
+
+    get muutURL() {
+        return 'https://muut.com/';
+    }
+
+    get muutApiURL() {
+        return 'https://api.muut.com/';
+    }
+
+    get boardURL() {
+        return this.muutURL + this.board;
+    }
+
+    extract(entry) {
+        var entryData;
+        try {
+            var seed = entry.seed;
+            var author = seed.user.displayname;
+            var description = seed.body;
+            var postTitle = seed.title;
+            var guid = seed.key;
+            var date = seed.time;
+            entryData = this._entryData(
+                author, description, postTitle, this.muutURL, guid, date
+            );
+        } catch (error) {
+            entryData = this.entryErrorData;
+        }
+
+        return entryData;
+    }
+
+    get entryErrorData() {
+        var author = 'ERROR';
+        var description = 'There was an error extracting data from an entry. ' +
+            'Please contact ' + this.maintainer_email + ' to report an error.';
+        var postTitle = 'Error extracting data for an entry';
+        var date = new Date().getTime();
+        var guid = date;
+        return this._entryData(author, description, postTitle, this.muutURL, guid, date);
+    }
+
+    _entryData(author, description, postTitle, url, guid, date) {
+        return {
+            'title': postTitle,
+            'description': description,
+            'url': url,
+            'guid': guid,
+            'author': author,
+            'date': date
+        };
+    }
 }
 
-function createFeed(entries) {
+function createFeed(muut, entries) {
     var feed = new Rss({
-        'title': 'Computational Topology Message Board',
-        'description': 'RSS feed of the computational topology message board',
-        'feed_url': FEED_URL,
-        'site_url': SITE_URL
+        'title': muut.title,
+        'description': muut.description,
+        'feed_url': muut.boardURL,
+        'site_url': muut.boardURL,
     });
 
     for (var idx in entries) {
@@ -69,62 +83,46 @@ function createFeed(entries) {
     return xml;
 }
 
-function parseData(response, data) {
-    var extractedEntries;
-    try {
-        var entries = data.result.moots.entries;
-        extractedEntries = entries.map(extract);
-    } catch (error) {
-        extractedEntries = [makeEntryErrorData()];
-    }
-    var xml = createFeed(extractedEntries);
-    response.writeHead(200);
-    response.end(xml);
-}
-
-function make_mutt_response_processor(client_response) {
-    var mutt_response_processor = function(error, response, body) {
-        if (error || response.statusCode != 200) {
-            makeEntryErrorData();
-        } else {
-            parseData(client_response, body);
+function make_muut_response_processor(muut, client_response) {
+    return function(error, response, body) {
+        var data = (error || response.statusCode != 200) ? {} : body;
+        var extractedEntries;
+        try {
+            var entries = body.result.moots.entries;
+            extractedEntries = entries.map(muut.extract, muut);
+        } catch (error) {
+            extractedEntries = [muut.entryErrorData];
         }
+        var xml = createFeed(muut, extractedEntries);
+        client_response.writeHead(200);
+        client_response.end(xml);
     };
-    return mutt_response_processor;
 }
 
-function makeRequest(response) {
+function makeRequest(muut, response) {
     var options = {
-        url: 'https://api.muut.com/',
+        url: muut.muutApiURL,
         method: 'POST',
         headers: {'Accept': 'application/json'},
         json: {
             'method': 'init',
             'params':[ {
                 'version': '1.14.0',
-                'path': '/comptop',
-                'currentForum': 'comptop',
-                'pageLocation': 'https://muut.com/comptop',
+                'path': '/' + muut.board,
+                'currentForum': muut.board,
+                'pageLocation': muut.muutURL,
                 'expand_all': false,
                 'reload': false
             } ],
             'id':'#1',
-            'session':{'sessionId': SESSION_ID},
+            'session':{'sessionId': ''},
             'jsonrpc':'2.1.0',
             'transport':'upgrade'
         }
     };
-    var mutt_response_processor = make_mutt_response_processor(response);
-    request(options, mutt_response_processor);
+    var muut_response_processor = make_muut_response_processor(muut, response);
+    request(options, muut_response_processor);
 }
 
-// function readFile(error, data) {
-//     if (error) {
-//         throw error;
-//     } else {
-//         var jsonData = JSON.parse(data);
-//         parseData(jsonData);
-//     }
-// }
-//Fs.readFile(fileName, 'utf8', readFile);
-exports.toRss = makeRequest;
+module.exports.muutToRss = makeRequest;
+module.exports.Muut = Muut;

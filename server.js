@@ -1,14 +1,20 @@
-/*jslint node: true */
+/*jslint node: true, esversion: 6 */
 'use strict';
+
 
 var http = require('http');
 var Router = require('router');
 var finalhandler = require('finalhandler');
-var mutt = require('./to_rss');
+var to_rss = require('./to_rss');
 
 var router = new Router();
 router.get('/comptop', function (req, res) {
-    mutt.toRss(res);
+    var title = 'Computational Topology Message Board';
+    var description = 'RSS feed of the computational topology message board';
+    var muut = new to_rss.Muut(
+        'comptop', 'dave@cs.unc.edu', title, description
+    );
+    to_rss.muutToRss(muut,res);
 });
 
 function requestHandler(req, res) {
