@@ -11,7 +11,7 @@
   "to the projectscripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "author": "",
+  "author": "David Millman",
   "license": "ISC",
   "dependencies": {
     "express": "^4.13.4",
