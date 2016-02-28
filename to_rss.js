@@ -33,10 +33,10 @@ class Muut {
             var author = seed.user.displayname;
             var description = seed.body;
             var postTitle = seed.title;
-            var guid = seed.key;
             var date = seed.time;
             var path = entry.path.replace('/' + this.board, '');
             var full_path = this.muutURL + this.board + '#!' + path;
+            var guid = full_path;
             console.log (full_path);
             entryData = this._entryData(
                 author, description, postTitle, full_path, guid, date
