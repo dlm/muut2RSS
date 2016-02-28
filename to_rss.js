@@ -35,8 +35,11 @@ class Muut {
             var postTitle = seed.title;
             var guid = seed.key;
             var date = seed.time;
+            var path = entry.path.replace('/' + this.board, '');
+            var full_path = this.muutURL + this.board + '#!' + path;
+            console.log (full_path);
             entryData = this._entryData(
-                author, description, postTitle, this.muutURL, guid, date
+                author, description, postTitle, full_path, guid, date
             );
         } catch (error) {
             entryData = this.entryErrorData;
