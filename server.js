@@ -6,7 +6,10 @@ var Router = require('router');
 var finalhandler = require('finalhandler');
 var to_rss = require('./to_rss');
 
+// setup the endpoints
 var router = new Router();
+
+// setup the the /comptop endpoint
 router.get('/comptop', function (req, res) {
     var title = 'Computational Topology Message Board';
     var description = 'RSS feed of the computational topology message board';
@@ -16,10 +19,10 @@ router.get('/comptop', function (req, res) {
     to_rss.muutToRss(muut,res);
 });
 
+// setup the server
+var port = process.env.PORT || 8080;
 function requestHandler(req, res) {
     var done = finalhandler(req, res);
     router(req, res, done);
 }
-
-var port = process.env.PORT || 8080;
 http.createServer(requestHandler).listen(port);
