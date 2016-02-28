@@ -5,8 +5,8 @@
   "main": "server.js",
   "private": true,
   "repository": {
-      "type": "git",
-      "url": "git://github.com/dlm/muut2RSS"
+    "type": "git",
+    "url": "git://github.com/dlm/muut2RSS"
   },
   "to the projectscripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
