@@ -4,7 +4,7 @@
 var http = require('http');
 var Router = require('router');
 var finalhandler = require('finalhandler');
-var to_rss = require('./to_rss');
+var muutToRss = require('./muut-to-rss');
 var mustache  = require('mustache');
 var fs = require('fs');
 
@@ -15,14 +15,14 @@ var router = new Router();
 router.get('/comptop', function (req, res) {
     var title = 'Computational Topology Message Board';
     var description = 'RSS feed of the computational topology message board';
-    var muut = new to_rss.Muut(
+    var muut = new muutToRss.Muut(
         'comptop', 'dave@cs.unc.edu', title, description
     );
-    to_rss.muutToRss(muut,res);
+    muutToRss.muutToRss(muut,res);
 });
 
 // Now that we have setup all the muuts, setup the the / endpoint
-var all_muuts_template = fs.readFileSync('./all_muuts.html', 'utf8');
+var all_muuts_template = fs.readFileSync('./templates/list-muuts.html', 'utf8');
 var paths = router.stack.map(function(obj) { return obj.route.path.substr(1); });
 var routes_page = mustache.render(all_muuts_template, {muuts: paths});
 router.get('/', function (req, res) {
