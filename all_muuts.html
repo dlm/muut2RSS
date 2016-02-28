@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8">
+    <title>Muut To RSS</title>
+    <style>
+      body {
+        background-color: #acc2d3;
+        color: #3d5265;
+      }
+    </style>
+    <script type="text/javascript">
+      function dave() { return "dave"; }
+      function at() { return "@"; }
+      function domain() { return "cs.unc.edu"; }
+      function email() { return dave() + at() + domain(); }
+      function contactMe() {
+        return "<a href=mailto:"+ email() + ">" + email() + "</a>";
+      }
+    </script>
+  </head>
+  <body>
+    <h1>Muut To RSS</h1>
+    <p>A list of all the RSSified <a href="http://muut.com">Muuts</a></p>
+    <ul>
+      {{#muuts}}
+      <li><a href="./{{.}}">{{.}}</a></li>
+      {{/muuts}}
+    </ul>
+
+    <p>If you would like to have your muut added, please contact
+      <script>document.write(contactMe());</script>
+    </p>
+
+    <p>
+      See <a href="https://github.com/dlm/muut2RSS">project page</a> for
+      source.
+    </p>
+  </body>
+</html>
+

@@ -16,6 +16,7 @@
   "dependencies": {
     "express": "^4.13.4",
     "finalhandler": "^0.4.1",
+    "mustache": "^2.2.1",
     "request": "^2.64.0",
     "router": "^1.1.4",
     "rss": "^1.1.1"

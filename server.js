@@ -5,6 +5,8 @@ var http = require('http');
 var Router = require('router');
 var finalhandler = require('finalhandler');
 var to_rss = require('./to_rss');
+var mustache  = require('mustache');
+var fs = require('fs');
 
 // setup the endpoints
 var router = new Router();
@@ -17,6 +19,15 @@ router.get('/comptop', function (req, res) {
         'comptop', 'dave@cs.unc.edu', title, description
     );
     to_rss.muutToRss(muut,res);
+});
+
+// Now that we have setup all the muuts, setup the the / endpoint
+var all_muuts_template = fs.readFileSync('./all_muuts.html', 'utf8');
+var paths = router.stack.map(function(obj) { return obj.route.path.substr(1); });
+var routes_page = mustache.render(all_muuts_template, {muuts: paths});
+router.get('/', function (req, res) {
+    res.writeHead(200);
+    res.end(routes_page);
 });
 
 // setup the server
