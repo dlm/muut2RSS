@@ -23,4 +23,4 @@ function requestHandler(req, res) {
 
 var port = process.env.PORT || 8080;
 console.log("port is " + port);
-http.createServer(requestHandler).listen(8080);
+http.createServer(requestHandler).listen(port);
