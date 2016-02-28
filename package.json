@@ -14,9 +14,10 @@
   "author": "",
   "license": "ISC",
   "dependencies": {
+    "express": "^4.13.4",
+    "finalhandler": "^0.4.1",
     "request": "^2.64.0",
-    "rss": "^1.1.1",
     "router": "^1.1.4",
-    "finalhandler": "^0.4.1"
-   }
+    "rss": "^1.1.1"
+  },
 }
