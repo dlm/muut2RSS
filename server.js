@@ -1,7 +1,6 @@
 /*jslint node: true, esversion: 6 */
 'use strict';
 
-
 var http = require('http');
 var Router = require('router');
 var finalhandler = require('finalhandler');
@@ -21,7 +20,6 @@ function requestHandler(req, res) {
     var done = finalhandler(req, res);
     router(req, res, done);
 }
-
 
 var port = process.env.PORT || 8080;
 console.log("port is " + port);
