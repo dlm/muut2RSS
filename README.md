@@ -1,7 +1,7 @@
 # Muut2RSS
 
 The goal of this project is to create a web service that can create an RSS feed
-from [compTop's muut](https://muut.com/comptop#!/).
+from [compTop's muut](https://muut.com/comptop).
 
 It turns out that it is quite easy to add other muuts.  If you would like to
 have your muut added, please send me an email.
